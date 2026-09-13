@@ -1,0 +1,18 @@
+{
+  "name": "frugal-testing-assignment",
+  "version": "1.0.0",
+  "description": "Frugal Testing AI-Native Software Engineer Intern Assignment Implementation",
+  "main": "index.js",
+  "scripts": {
+    "q1:server": "node section_a_q1/server.js",
+    "q1:test": "node section_a_q1/test_q1.js",
+    "q2:server": "node section_a_q2/mock_server.js",
+    "q2:test": "node section_a_q2/test_q2.js",
+    "q3:test": "node section_a_q3/shadow_dom_piercer.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.17.0",
+    "playwright": "^1.44.0"
+  }
+}
